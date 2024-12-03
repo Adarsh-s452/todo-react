@@ -1,0 +1,215 @@
+/* From Uiverse.io by vinodjangid07 */ 
+.InputContainer {
+    width: 600px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom,rgb(227, 213, 255),rgb(255, 231, 231));
+    border-radius: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.075);
+  }
+  
+  .input {
+    width: 590px;
+    height: 40px;
+    border: none;
+    outline: none;
+    caret-color: rgb(255, 81, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    padding-left: 15px;
+    letter-spacing: 0.8px;
+    color: rgb(19, 19, 19);
+    font-size: 13.4px;
+  }
+
+  .addlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  /* From Uiverse.io by adamgiebl */ 
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0.7em 1.4em 0.7em 1.1em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(
+      0deg,
+      rgba(20, 167, 62, 1) 0%,
+      rgba(102, 247, 113, 1) 100%
+    );
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+  }
+  
+  .cssbuttons-io-button svg {
+    margin-right: 6px;
+  }
+  
+  .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+  }
+  
+  .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+  }
+.form-check-input {
+    width: 20px; /* Width of the checkbox */
+    height: 20px; /* Height of the checkbox */
+    cursor: pointer; /* Pointer cursor on hover */
+    appearance: none; /* Remove default styling */
+    background-color: #ff4d4d; /* Match background color */
+    border: 2px solid #ff4d4d; /* Match border color */
+    border-radius: 3px; /* Rounded corners */
+    outline: none; /* Remove outline */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+}
+
+.form-check-input:checked {
+    background-color: #ff1a1a; /* Darker red when checked */
+    border-color: #ff1a1a; /* Darker red border when checked */
+}
+
+.form-check-input:checked::after {
+    color: white; /* Checkmark color */
+    position: relative;
+    left: 3px; /* Positioning the checkmark */
+    top: -2px; /* Positioning the checkmark */
+    font-size: 16px; /* Checkmark size */
+}
+
+
+
+  .checkbox-wrapper-31:hover .check {
+    stroke-dashoffset: 0;
+  }
+
+  .checkbox-wrapper-31 {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  .checkbox-wrapper-31 .background {
+    fill: #ccc;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+  }
+  .checkbox-wrapper-31 .stroke {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 100;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+  }
+  .checkbox-wrapper-31 .check {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    stroke-dashoffset: 22;
+    stroke-dasharray: 22;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+  }
+  .checkbox-wrapper-31 input[type=checkbox] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    opacity: 0;
+    -appearance: none;
+    -webkit-appearance: none;
+  }
+  .checkbox-wrapper-31 input[type=checkbox]:hover {
+    cursor: pointer;
+  }
+  .checkbox-wrapper-31 input[type=checkbox]:checked + svg .background {
+    fill: #6cbe45;
+  }
+  .checkbox-wrapper-31 input[type=checkbox]:checked + svg .stroke {
+    stroke-dashoffset: 0;
+  }
+  .checkbox-wrapper-31 input[type=checkbox]:checked + svg .check {
+    stroke-dashoffset: 0;
+  }
+
+/* From Uiverse.io by vinodjangid07 */ 
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: rgb(20, 20, 20);
+  border: none;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.164);
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+  position: relative;
+  gap: 2px;
+}
+
+.svgIcon {
+  width: 12px;
+  transition-duration: 0.3s;
+}
+
+.svgIcon path {
+  fill: white;
+}
+
+.button:hover {
+  transition-duration: 0.3s;
+  background-color: rgb(255, 69, 69);
+  align-items: center;
+  gap: 0;
+}
+
+.bin-top {
+  transform-origin: bottom right;
+}
+.button:hover .bin-top {
+  transition-duration: 0.5s;
+  transform: rotate(160deg);
+}
+.texts{
+  font-family: "Fugaz One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#headd{
+  font-family: "Bungee Tint", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#bodys{
+  font-family: "Metal Mania", serif;
+  font-weight: 900;
+  font-style: normal;
+  color:black;
+  text-align: center;
+  font-size: x-large;
+}
